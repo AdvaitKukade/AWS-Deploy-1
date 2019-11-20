@@ -1,0 +1,714 @@
+*
+{
+    margin:0px auto;
+    box-sizing: border-box;
+}
+.outer-container
+{
+    width:1200px;
+    margin:0px auto;
+    background-color:#EBECF2;
+}
+
+.inner-container
+{
+    margin-left:24px;
+    margin-right:24px;
+}
+
+.clearfix
+{
+    clear:both;
+}
+
+/*-------------------------------------------------Code for Header------------------------------------------------------------------*/
+
+header
+{
+    background-color:#384B59;
+    height:60px;
+    padding:10px 0px;
+    font-family:Lato;
+    font-size:14px;
+}
+
+ul a
+{
+    display:inline-block;
+    list-style-type:none;
+}
+
+header ul li
+{
+    float: left;
+    /* background-color:blue; */
+}
+
+header ul
+{
+    float:right;
+}
+
+.inner-container a:nth-child(2)
+{
+    margin-left:60px;
+    vertical-align:middle;
+} 
+
+.list li:nth-child(1)::before
+{
+    content: "6";
+    position: absolute;
+    right: 0%;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    height: 19px;
+    width: 19px;
+    top:0%;
+
+}
+
+.list li:nth-child(1)
+{
+    position:relative;
+}
+
+.list li:nth-child(1)
+{
+    margin-right:13px;
+}
+
+.list li:nth-child(2)
+{
+    margin-right:10px;
+}
+
+.list li
+{
+    height:40px;
+    width:40px;
+}
+
+.list li a
+{
+    padding:10px;   
+}
+
+.list li a:hover
+{
+    
+    background-color:rgba(233, 233, 233, 0.1);
+}
+
+.options_img
+{
+    float: right;
+    padding-right: 12px;
+}
+
+/* ---------------------------------------------------------Code for 4 Rectangles---------------------------------------------------- */
+
+.dashboardtitle span
+{
+    text-transform:uppercase;
+    font-family:Quicksand;
+}
+
+.dashboardtitle img
+{
+
+    margin-top: 5px;
+}
+
+.dashboardtitle h1
+{
+    text-transform:uppercase;
+    font-family:Quicksand;
+    display:inline-block;
+    line-height: 22px;
+    font-size:18px;
+}
+
+.dashboardtitle
+{
+    margin-top:30px;
+    text-transform: uppercase;
+}
+
+
+.title
+{
+    text-transform: uppercase;
+    margin-top:30px;
+
+}
+
+.rectangle1 .content p:nth-child(1)
+{
+    font-family:Quicksand;
+    font-size:16px;
+}
+
+.rectangle1 .content p:nth-child(2)
+{
+    font-family:Quicksand;
+    font-size:30px;
+}
+
+.rectangle2 .content p:nth-child(1)
+{
+    font-family:Quicksand;
+    font-size:16px;
+}
+
+.rectangle2 .content p:nth-child(2)
+{
+    font-family:Quicksand;
+    font-size:30px;
+}
+
+.rectangle3 .content p:nth-child(1)
+{
+    font-family:Quicksand;
+    font-size:16px;
+}
+
+.rectangle3 .content p:nth-child(2)
+{
+    font-family:Quicksand;
+    font-size:30px;
+}
+
+.rectangle4 .content p:nth-child(1)
+{
+    font-family:Quicksand;
+    font-size:16px;
+}
+
+.rectangle4 .content p:nth-child(2)
+{
+    font-family:Quicksand;
+    font-size:30px;
+}
+
+.img_options
+{
+  float:right;
+    padding-right:12px;
+}
+
+.content
+{
+    float:left;
+    color:white;
+}
+
+.content p:nth-child(1)
+{
+    font-size:18px;
+    margin:11px 15px;
+}
+
+.content p:nth-child(2)
+{
+    margin-top:34px;
+    font-size:30px;
+    margin-left:15px;
+} 
+
+.rectangle1, .rectangle2, .rectangle3, .rectangle4
+{
+    width:23.43%;
+    float:left;
+    margin-top:36px;    
+}
+
+.rectangle1, .rectangle2, .rectangle3
+{
+    margin-right:24px;
+}
+
+.rectangle1
+{
+    background-color:#FEC006;
+}
+
+.rectangle_1_padding
+{
+    background-color:rgba(0, 0, 0, 0.1);
+    width: 90px;
+    height: 110px;
+    text-align: center;
+    float:right;
+}
+
+.rectangle_1_padding img
+{
+    margin-top:34px;
+}
+
+.rectangle2
+{
+    background-color:#E81D62;
+    margin-right:24px;
+}
+
+
+.rectangle3
+{
+    background-color:#8AC249;
+    margin-right:24px;
+}
+
+
+.rectangle4
+{
+    background-color:#2095F2;
+}
+
+h2
+{
+    font-family:Quicksand;
+    font-size:18px;
+    display:inline-block;
+}
+
+h1
+{
+    text-transform:uppercase;
+    font-size:16px;
+}
+
+/*---------------------------------------------------------Code for 4 Circles---------------------------------------------------*/
+
+.main_parent
+{
+    float: left;
+    width: 23.43%;
+    margin-top: 21px;
+    text-align:center;
+    
+}
+
+.milestone_top_box
+{
+    color: #363F45;
+    height: 166px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #EBECF2;
+}
+
+.milestone_top_box .milestone_value
+{
+    font-family:Quicksand;
+    font-size:30px;
+}
+
+.milestone_top_box .milestone_percent
+{
+    font-family:Quicksand;
+    font-size:16px;
+}
+
+.milestone_value
+{
+    font-size: 30px;
+    margin-top: 12px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.milestone_percent
+{
+    font-size: 16px;
+    padding-left: 36px;
+    line-height: 24px;
+    padding-right: 39px;
+}
+
+
+.shadowgreen
+{
+    box-shadow: 0 0 0 10px #8AC249;
+}
+
+.yellow
+{
+    box-shadow:0 0 0 10px #FEC006;
+}
+
+.white
+{
+    box-shadow:0 0 0 10px #F1F1F1;
+}
+
+.shadowgreen, .yellow, .white
+{
+    height: 87px;
+    width: 87px;
+    background-color: #F6EFD2;
+    border: 2px solid white;
+    border-radius: 50%;    
+    display: inline-block;
+    margin: 38px 89px 37px 90px;
+}
+
+.section2 .inner-container .main_parent:nth-child(2),.section2 .inner-container .main_parent:nth-child(3),.section2 .inner-container .main_parent:nth-child(4)
+{
+    margin-right:24px;
+}
+
+.milestone_bottom_box p
+{
+    padding: 20px 45px;
+    font-family: Lato;
+    font-size: 15px;
+    line-height: 19px;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+.milestone_bottom_box
+{
+    background-color: #FFFFFF;
+    text-align: center;
+    line-height: 59px;
+}
+
+
+
+.milestone_bottom_box_1 p
+{
+    display: inline-block;
+
+    margin-left: 45px;
+    margin-top: 20px;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+
+.milestone_bottom_box_1 span:nth-child(1)
+{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 34px;
+    color: #E1E2E9;
+    float: right;
+    margin-right: 22px;
+    margin-top: 12px;
+}
+
+
+
+.milestone_bottom_box span:nth-child(1)
+{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 34px;
+    color: #E1E2E9;
+    float: right;
+    margin-right: 22px;
+    /* margin-top: 12px; */
+}
+
+.img_rightarrow
+{
+    float:right;
+    padding-right:2px;
+}
+
+.img_leftarrow
+{
+    float:right;
+    padding-right:27px;
+}
+
+/* --------------------------------------------------Code for Progress bar------------------------------------------------*/
+
+.progress_bar
+{
+    width:26%;
+    height:5px;
+    background-color:#D4C69B;
+    border-radius: 2px 2px 2px 2px;
+}
+
+.myprogress
+{
+    border-radius: 4px;
+    padding: 2px;
+    margin-top:58px;
+    margin-bottom:69px;
+    background-color:#FFFFFF;
+}
+
+/*----------------------------------------------Code for Recent Task section of the page ------------------------------------------------*/
+
+.leftBlock
+{
+   margin-right:24px;
+}
+
+.smallContainer
+{
+    margin: 0px 30px;
+}
+
+.heading h3
+{
+    font-size:16px;
+    text-transform:uppercase;
+    display:inline-block;
+    font-weight:700;
+}
+ 
+.heading
+{
+    font-family:Quicksand;
+    text-transform:uppercase;
+    border-bottom: 1px solid #EBECF2;
+    padding-left: 28px;
+    padding-top: 21px;
+    padding-bottom: 17px;
+    padding-right: 18px;
+    
+}
+
+.checklistItems
+{
+    font-family:Lato;
+    color:#919599;
+}
+
+.checklistItems ul li
+{
+   /*  //float:left; */
+   padding:20px 30px 19px;
+}
+
+.checklistItems ul li:nth-child(1)
+{
+    border-bottom: 1px solid #EBECF2;
+}
+
+
+.checklistItems ul li:nth-child(2)
+{
+    background-color:#E1F5E3;
+    border-bottom: 1px solid #EBECF2;
+}
+
+.checklistItems ul li:nth-child(3)
+{
+    border-bottom: 1px solid #EBECF2;
+}
+
+.checklistItems ul li:nth-child(4)
+{
+    border-bottom: 1px solid #EBECF2;
+}
+
+.mainClass img
+{
+    float:right;
+}
+
+.date
+{
+    display:inline-block;
+    margin-right:20px;
+}
+
+.rightBlockDateBlock
+{
+    float:right;
+}
+
+p .checklist_item2
+{
+    margin-left:120px;
+}
+
+.checklist_item3
+{
+    margin-left:120px;
+}
+
+.whitebox
+{
+    height:17px;
+    width:17px;
+    border:1px solid #CED4D9;
+    background-color:#FFFFFF;
+    float:right;
+}
+
+.recent_task_date
+{
+    width:80px;
+    text-align:center;
+    font-size:13px;
+    float:right;
+}
+/*---------------------------------------------Code for Work Status section of the page-------------------------------------------------- */
+
+
+.rightBlock,.leftBlock
+{
+   background-color:white;
+   float:left;
+   width:48.95%;
+}
+
+.rightBlockItems
+{
+    font-family:Lato;
+    color:#919599;
+}
+
+.rightBlockItems ul li
+{
+    padding: 36px 30px 0px;
+}
+
+ .rightBlockItems li:nth-child(1)
+{
+    font-weight:bold;
+    font-size:16px;
+    
+    color:#363F45;
+}
+
+.rightBlockItems li:nth-child(2)
+{
+    font-weight:bold;
+    font-size:16px;
+    margin-top:58px;
+    color:#363F45;
+}
+
+.rightBlockItems li:nth-child(3)
+{
+    font-weight:bold;
+    font-size:16px;
+    margin-top:68px;
+    color:#363F45;
+    margin-bottom:56px;
+} 
+
+.rbprogressbar
+{
+    width:332px;
+    background-color:#E1E2E6;
+    border-radius:5px;
+    float:right; 
+    margin-top: 8px;   
+    height:9px;
+}
+
+.rightblock_progressbar
+{
+    position:relative;
+    width:43%;
+    height: 9px;
+    background-color: #5FCCC1;
+    border-radius:5px;
+    font-size: 12px;
+    font-family: Lato;
+    max-width:100%;
+}
+
+.rightBlockItems ul li:nth-child(2) .rightblock_progressbar
+{
+    width:58%;
+    position:relative;
+    height: 9px;
+    background-color: #5FCCC1;
+    border-radius:5px;
+    font-size: 12px;
+    font-family: Lato;
+    max-width:100%;
+
+}
+
+.rightBlockItems ul li:nth-child(3) .rightblock_progressbar
+{
+    width:32%;
+    position:relative;
+    height: 9px;
+    background-color: #5FCCC1;
+    border-radius:5px;
+    font-size: 12px;
+    font-family: Lato;
+    max-width:100%;
+}
+
+.rightblock_progressbar span
+{
+    position: absolute;
+    content: "";
+    right: -15px;
+    bottom: 200%;
+    background-color: #5FCCC1;
+    padding: 5px;
+    border-radius: 5px;
+    color:white;
+}
+
+.rightblock_progressbar span::after
+{
+    position: absolute;
+    content: "";
+    height: 6px;
+    width: 6px;
+    transform: rotate(45deg);
+    background-color: #5FCCC1;
+    right: 45%;
+    bottom: -12%;
+}
+
+.rightblock_progressbar_1 span
+{
+    position: absolute;
+    content: "";
+    right: -12%;
+    bottom: 200%;
+    background-color: #5FCCC1;
+    padding: 5px;
+    border-radius: 5px;
+    color:white;
+}
+
+.rightblock_progressbar_2 span
+{
+    position: absolute;
+    content: "";
+    right: -12%;
+    bottom: 200%;
+    background-color: #5FCCC1;
+    padding: 5px;
+    border-radius: 5px;
+    color:white;
+}
+
+/* --------------------------------------------Code for the footer of the page ------------------------------------------------ */
+
+footer
+{
+    background-color:#384B59;
+    text-align:right;
+    margin-top:111px;
+    text-transform:uppercase;
+    padding:15px 25px;
+    color:#9CAAB4;
+    font-family:Lato;
+    font-size:11px;
+    
+}
+
+/*---------------------------------------------------- END OF CODE -----------------------------------------------------------------*/
